@@ -130,6 +130,19 @@ body {
   line-height: 1.4;
 }
 
+
+/* Visited link */
+.top-nav li a:visited {
+  color: #ffffff; /* example: purple color for visited links */
+}
+
+/* Hovered link */
+.top-nav li a:hover {
+  color: #ff0;
+}
+
+
+
 /* Responsive adjustments */
 @media (max-width: 800px) {
   .content, .map-section {
